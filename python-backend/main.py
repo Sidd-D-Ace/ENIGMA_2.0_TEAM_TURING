@@ -17,7 +17,7 @@ load_dotenv()
 from google import genai
 from google.genai import types
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyCHFvdwESWRl-w2bza98KgtURYke0uEqUo"
+os.environ["GEMINI_API_KEY"] = "api-key"
 client = genai.Client()
 
 app = FastAPI(title="Resume Parser API")
